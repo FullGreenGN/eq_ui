@@ -1,3 +1,15 @@
+# Rust
+target/
+
+# Node/Bun
+node_modules
+dist
+dist-ssr
+*.local
+bun.lockb
+package-lock.json
+yarn.lock
+
 # Logs
 logs
 *.log
@@ -7,12 +19,10 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Environment
+.env
 
-# Editor directories and files
+# Editor/OS
 .vscode/*
 !.vscode/extensions.json
 .idea
